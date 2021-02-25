@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<div  class="calculator">
+    <div id='field' class="field">
+        <p onclick="remove()" id="answer"></p>
+    </div>
+    <div class="container">
+        <a href="#" onclick="writeNumber('7')" class="number">7</a>
+        <a href="#" onclick="writeNumber('8')" class="number">8</a>
+        <a href="#" onclick="writeNumber('9')" class="number">9</a>
+        <a href="#" onclick="writeOp('/')" class="op">÷</a>
+    </div>
+    <div class="container">
+        <a href="#" onclick="writeNumber('4')" class="number">4</a>
+        <a href="#" onclick="writeNumber('5')" class="number">5</a>
+        <a href="#" onclick="writeNumber('6')" class="number">6</a>
+        <a href="#" onclick="writeOp('*')" class="op">×</a>
+    </div>
+    <div class="container">
+        <a href="#" onclick="writeNumber('1')" class="number">1</a>
+        <a href="#" onclick="writeNumber('2')"  class="number">2</a>
+        <a href="#" onclick="writeNumber('3')"  class="number">3</a>
+        <a href="#" onclick="writeOp('-')" class="op">-</a>
+    </div>
+    <div class="container">
+        <a href="#" onclick="writeNumber('0')" class="number">0</a>
+        <a href="#" onclick="writeOp('.')" class="op">.</a>
+        <a href="#" onclick="same()" class="op">=</a>
+        <a href="#" onclick="writeOp('+')" class="op">+</a>
+    </div>
+</div>
+</body>
+</html>
